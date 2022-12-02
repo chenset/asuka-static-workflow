@@ -1,0 +1,386 @@
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(/static/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(/static/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(/static/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(/static/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica Neue, Arial, sans-serif, Microsoft YaHei;
+    color: rgb(97, 100, 102);
+    font-size: 12px;
+    background: rgb(247, 250, 252);
+}
+
+small {
+    font-size: 0.9em;
+}
+
+*:focus {
+    outline: none;
+}
+
+::selection {
+    background: #cccccc;
+}
+
+::placeholder {
+    color: #d0d0d0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    color: rgb(103, 106, 108);
+    font-weight: 300;
+}
+
+h1 small, h2 small, h3 small {
+    font-size: 0.5em;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 24px;
+    }
+}
+
+.main-content {
+    background-color: #fff;
+}
+
+input, button, select {
+    border-radius: 2px;
+    border: 1px solid #e7e7e7;
+}
+
+input, button {
+    -webkit-appearance: none;
+}
+
+.btn-sm, .inp-sm {
+    padding: 3px 6px;
+    font-size: 12px;
+}
+
+.btn-mb, .inp-mb {
+    padding: 6px 14px;
+}
+
+.btn-sm, .btn-mb {
+    color: #fff;
+}
+
+.btn-text {
+    background: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+button.ctl:disabled {
+    /*opacity: 0.4;*/
+    visibility: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, strong, b {
+    font-weight: 600;
+}
+
+th, td {
+    padding: 0 10px;
+    height: 40px;
+    border: 1px solid rgb(236, 239, 241);
+    border-left: none;
+    border-right: none;
+    white-space: nowrap;
+}
+
+table.table-striped th {
+    background: #eaeaea;
+}
+
+table.table-striped tr:nth-child(even) {
+    background: #f4f4f4;
+}
+
+tr:hover {
+    background: #d9f1db !important;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.text-ellipsis {
+    width: inherit;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ctrl-wrap {
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    z-index: 1;
+}
+
+.warning {
+    background: rgb(255, 248, 235) !important;
+}
+
+.danger {
+    background: rgb(255, 240, 240) !important;
+}
+
+.red {
+    background: #ff5252 !important;
+}
+
+.orange {
+    background: #ff9c38 !important;
+}
+
+.green {
+    background: #00af4c !important;
+}
+
+.dim {
+    background: #797978 !important;
+}
+
+.text-red {
+    color: #ff5252 !important;
+}
+
+.text-orange {
+    color: #ff9c38 !important;
+}
+
+a, .text-green {
+    color: #00af4c !important;
+}
+
+.text-gray {
+    color: #CCC;
+}
+
+.stop td:not(.ctl), .stop div:not(.ctl) {
+    text-decoration: line-through;
+}
+
+.stop td:not(.ctl) {
+    opacity: 0.4;
+}
+
+
+.head_wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.head-item {
+    min-width: 300px;
+    padding: 0 20px 15px;
+    flex: 1;
+}
+
+.lds-dual-ring {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    margin-left: -18px;
+    margin-top: -18px;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin: 1px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #ff9c38 transparent #ff9c38 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Dark mode */
+html[class~=dark] .sun {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: rgb(247, 250, 252);
+}
+
+html:not(.dark) .moon {
+    position: relative;
+    top: -2px;
+    left: -4px;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    box-shadow: 4px 1px 0 #191919;
+}
+
+html[class~=dark] body {
+    color: #ccc;
+    background-color: #191919;
+}
+
+html[class~=dark] .main-content {
+    background-color: #282828;
+}
+
+html[class~=dark] table.table-striped th {
+    background: #191919;
+}
+
+html[class~=dark] table.table-striped tr:nth-child(even) {
+    background: #191919;
+}
+
+html[class~=dark] th, html[class~=dark] td {
+    border: 1px solid #363636;
+    border-left: none;
+    border-right: none;
+}
+
+html[class~=dark] table.table-striped th {
+    background: #363636;
+}
+
+html[class~=dark] tr:hover {
+    background: #3b3b3b !important;
+}
+
+html[class~=dark] input, html[class~=dark] select, html[class~=dark] textarea {
+    color: #ccc;
+    background: #363636;
+    border: 1px solid #191919;
+}
+
+html[class~=dark] .warning {
+    background: rgb(57, 35, 13) !important;
+}
+
+html[class~=dark] .danger {
+    background: rgb(49, 16, 16) !important;
+}
+
+html[class~=dark] .red {
+    background: #ca4040 !important;
+}
+
+html[class~=dark] .orange {
+    background: #d2822f !important;
+}
+
+html[class~=dark] .green {
+    background: #009842 !important;
+}
+
+html[class~=dark] .text-red {
+    color: #ca4040 !important;
+}
+
+html[class~=dark] .text-orange {
+    color: #d2822f !important;
+}
+
+html[class~=dark] a, html[class~=dark] .text-green {
+    color: #009842 !important;
+}
+
+html[class~=dark] .text-gray {
+    color: #CCC !important;
+}
